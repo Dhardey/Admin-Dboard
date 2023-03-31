@@ -1,0 +1,96 @@
+.search {
+    grid-area: s;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.searchTerm {
+    width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchButton{
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.login {
+    grid-area: l;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bell{
+    width: 40px;
+    height: 36px;
+    font-size: 20px;
+}
+.intro {
+    grid-area: i;
+    display: flex;
+}
+
+.header-btns {
+    grid-area: b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pp2 {
+    max-width: 8%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#hbtn {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+}
+
+.side-bar {
+    display: grid;
+    grid-template: 
+        "header"
+        "links"
+}
+.nav-header {
+    display: flex;
+    grid-area: header;
+    align-items: center;
+    margin-bottom: 65.4px;
+    justify-content: center;
+}
+
+#db-btn{
+    width: 40px;
+    height: 36px;
+    font-size: 20px;
+    border: none;
+    background: none;
+}
+
+.navlinks {
+    grid-area: links;
+}
+
+.main-content{
+    grid-area: mc;
+}
